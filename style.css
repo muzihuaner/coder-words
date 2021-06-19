@@ -1,0 +1,100 @@
+.body{
+    background-color: aliceblue;
+}
+.head{
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 5px;
+    background: #e0e0e0;
+    box-shadow:  5px 5px 10px #b5b5b5,
+             -5px -5px 10px #ffffff;
+}
+.index{
+    text-align: center;
+
+}
+.index button{
+    justify-content:center;
+    outline: none;
+    font-size: 30px;
+    text-align: center;
+    width: 250px;
+    height: 100px;
+    margin: 20px;
+    border-radius: 10px;
+    background: #e0e0e0;
+    box-shadow:  9px 9px 18px #a6a6a6,
+             -9px -9px 18px #ffffff;
+}
+.index button:active{
+    outline: none;
+    border-radius: 10px;
+    background: #bbb5b5;
+    box-shadow:  9px 9px 18px #a6a6a6,
+             -9px -9px 18px #ffffff;
+}
+.index button a{
+    text-decoration:none;
+    color: #000;
+}
+.foot{
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+}
+.foot a{
+    color: #000;
+}
+.wordlist{
+    width: 70%;
+    margin:0 auto;
+    margin-top: 50px;
+    line-height: 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.wordItemBox{
+    display: inline-block;
+    width: 100%;
+    border-radius: 10px;
+    background: #444;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+.wordItemBox .word{
+    color: #FFEB3B;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 45px;
+    display: inline-block;
+    padding-right: 10px;
+    transition:color 0.35s;
+}
+.wordItemBox .word:hover{
+    color:#f90;
+}
+.wordItemBox .translate{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 15px;
+}
+hr{
+    height:5px;
+    border:none;
+    border-top:1px groove #666;
+    border-top:1px groove #ddd; 
+}
+.read{
+    outline: none;
+    border-radius: 5px;
+    background: #000000;
+    border-color: #ffffff;
+    color: #e0e0e0;
+    font-weight: bold;
+}
